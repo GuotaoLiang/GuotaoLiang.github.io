@@ -31,7 +31,46 @@
 
 # 📝 Publications
 ## 🐍 2025
-<div class='paper-box'>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 CVPR 2025</div><img src='images/publications/TA-VQ.png' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Improved Text-Aligned Codebook Learning: Multi-Hierarchical Codebook-Text Alignment with Long Text](https://arxiv.org/pdf/2503.01261) \\
+**Guotao Liang**, Baoquan Zhang, Zhiyuan Wen, Junteng Zhao,Yunming Ye, Xiaochen Qi, Yao He.
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong>
+- We propose a novel text-augmented codebook learning framework, TA-VQ, which leverages VLMs to generate longer text for each image, improving text-aligned codebook learning. This approach enables 1) fine-grained alignment through detailed image descriptions, and 2) richer semantic knowledge for robust codebook learning. 
+</div>
+</div>
+
+## 🐲 2024
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 NeurIPS 2024</div><img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LG-VQ: Language-Guided Codebook Learning](https://arxiv.org/pdf/2405.14206) \\
+**Guotao Liang**, Baoquan Zhang, Yaowei Wang, Yunming Ye, Xutao Li , HuaiBin Wang, Luo Chuyao, Kola Ye, Linfeng Luo.
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:Tyk-4Ss8FVUC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:Tyk-4Ss8FVUC'></span></strong>
+- We point out the limitations of existing methods in learning an expressive codebook since they learn a single-modal codebook. We propose a novel multi-modal codebook learning method, named LG-VQ, which can enable the codebook to effectively retain fine-grained reconstruction information while aligning with the text. 
+</div>
+</div>
+
+
+<!-- <div class='paper-box2'><div class='paper-box-image'><div><div class="badge">🔥 NeurIPS 2024</div><img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300"></div></div>
+    <div class='paper-box-text' markdown="1">
+
+    [LG-VQ: Language-Guided Codebook Learning](https://arxiv.org/pdf/2405.14206)
+
+    **Guotao Liang**, Baoquan Zhang, Yaowei Wang, Yunming Ye, Xutao Li , HuaiBin Wang, Luo Chuyao, Kola Ye, Linfeng Luo.
+
+    [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:Tyk-4Ss8FVUC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:Tyk-4Ss8FVUC'></span></strong>
+    - We point out the limitations of existing methods in learning an expressive codebook since they learn a single-modal codebook. We propose a novel multi-modal codebook learning method, named LG-VQ, which can enable the codebook to effectively retain fine-grained reconstruction information while aligning with the text. 
+    </div>
+</div> -->
+
+
+
+
+<!-- <div class='paper-box1'>
     <div class='paper-box-image'>
         <div>
             <div class="badge">🔥 CVPR 2025</div>
@@ -47,27 +86,10 @@
     [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong>
     - We propose a novel text-augmented codebook learning framework, TA-VQ, which leverages VLMs to generate longer text for each image, improving text-aligned codebook learning. This approach enables 1) fine-grained alignment through detailed image descriptions, and 2) richer semantic knowledge for robust codebook learning. 
     </div>
-</div>
-
-## 🐲 2024
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 NeurIPS 2024</div><img src='images/publications/LG-VQ.pdf' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[LG-VQ: Language-Guided Codebook Learning](https://arxiv.org/pdf/2405.14206)
-
-**Guotao Liang**, Baoquan Zhang, Yaowei Wang, Yunming Ye, Xutao Li , HuaiBin Wang, Luo Chuyao, Kola Ye, Linfeng Luo.
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:Tyk-4Ss8FVUC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:Tyk-4Ss8FVUC'></span></strong>
-- We point out the limitations of existing methods in learning an expressive codebook since they learn a single-modal codebook. We propose a novel multi-modal codebook learning method, named LG-VQ, which can enable the codebook to effectively retain fine-grained reconstruction information while aligning with the text. 
-</div>
 </div> -->
-<div class='paper-box'>
-    <div class='paper-box-image'>
-        <div>
-            <div class="badge">🔥 NeurIPS 2024</div>
-            <img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300">
-        </div>
-    </div>
+
+<!-- ## 🐲 2024
+<div class='paper-box2'><div class='paper-box-image'><div><div class="badge">🔥 NeurIPS 2024</div><img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300"></div></div>
     <div class='paper-box-text' markdown="1">
 
     [LG-VQ: Language-Guided Codebook Learning](https://arxiv.org/pdf/2405.14206)
@@ -77,7 +99,7 @@
     [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:Tyk-4Ss8FVUC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:Tyk-4Ss8FVUC'></span></strong>
     - We point out the limitations of existing methods in learning an expressive codebook since they learn a single-modal codebook. We propose a novel multi-modal codebook learning method, named LG-VQ, which can enable the codebook to effectively retain fine-grained reconstruction information while aligning with the text. 
     </div>
-</div>
+</div> -->
 
 
 
