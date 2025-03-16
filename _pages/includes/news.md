@@ -7,9 +7,9 @@
  * 
 -->
 # 🔥 News
-- *2025.02*:  🎉 Our [TA-VQ](https://arxiv.org/pdf/2503.01261) is accepted by CVPR 2025.
+- *2025.02*: 🎉 Our [TA-VQ](https://arxiv.org/pdf/2503.01261) is accepted by CVPR 2025.
 - *2024.12*: 🎉 Our [AsyncDSB](https://arxiv.org/pdf/2412.08149) is accepted by AAAI 2025.
-- *2024.09*: Our [LG-VQ](https://arxiv.org/pdf/2405.14206) is accepted by NeurIPS 2024.
+- *2024.09*: 🎉 Our [LG-VQ](https://arxiv.org/pdf/2405.14206) is accepted by NeurIPS 2024.
 - *2024.02*: Our [VQCT](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Codebook_Transfer_with_Part-of-Speech_for_Vector-Quantized_Image_Modeling_CVPR_2024_paper.pdf) is accepted by CVPR 2024.
 
 
