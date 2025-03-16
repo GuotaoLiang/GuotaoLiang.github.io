@@ -29,22 +29,13 @@
 
 
 
-
-
-
-
-- **A Comprehensive Survey on Composed Image Retrieval**
-  Xuemeng Song, Haoqiang Lin, **Haokun Wen**, Bohan Hou, Mingzhu Xu, and Liqiang Nie.
-  ArXiv preprint. [[Paper\]](https://arxiv.org/pdf/2502.18495)
-
-
 # 📝 Publications
 ## 🐍 2025
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
             <div class="badge">🔥 CVPR 2025</div>
-            <embed src="images/publications/TA-VQ.pdf" width="500" height="300">
+            <img src='images/publications/TA-VQ.png' alt="sym" width="500" height="300">
         </div>
     </div>
     <div class='paper-box-text' markdown="1">
@@ -74,7 +65,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">🔥 NeurIPS 2024</div>
-            <embed src="images/publications/LG-VQ.pdf" width="500" height="300">
+            <img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300">
         </div>
     </div>
     <div class='paper-box-text' markdown="1">
