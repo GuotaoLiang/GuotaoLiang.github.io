@@ -43,7 +43,7 @@
 </div>
 
 ## 🐲 2024
-- 🔥 ``AAAI 2025`` [AsyncDSB: Schedule-Asynchronous Diffusion Schrödinger Bridge for Image Inpainting](https://arxiv.org/pdf/2412.08149), Zihao Han, Baoquan Zhang, Lisai Zhang, Shanshan Feng, Kenghong Lin\*, **Guotao Liang**\*, Yunming Ye, Xiaochen Qi.
+- 🔥 ``AAAI 2025`` [AsyncDSB: Schedule-Asynchronous Diffusion Schrödinger Bridge for Image Inpainting](https://arxiv.org/pdf/2412.08149), Zihao Han, Baoquan Zhang, Lisai Zhang, Shanshan Feng, Kenghong Lin, **Guotao Liang**, Yunming Ye, Xiaochen Qi.
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 AAAI 2024</div><img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -80,7 +80,7 @@ Baoquan Zhang, Wang huaibin, Luo Chuyao, Xutao Li, **Guotao Liang**, Yunming Ye,
 </div>
 
 ## 🐰 2023
-- ``IJCAI 2023`` [HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191111), Rui Chen\*, **Guotao Liang**\*, Chenrui Ma, Qilong Han, Li Li, Xiao Huang.
+- ``IJCAI 2023`` [HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191111), Rui Chen, **Guotao Liang**, Chenrui Ma, Qilong Han, Li Li, Xiao Huang.
 
 <!-- <div class='paper-box2'><div class='paper-box-image'><div><div class="badge">🔥 NeurIPS 2024</div><img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300"></div></div>
     <div class='paper-box-text' markdown="1">
