@@ -25,7 +25,7 @@
   In *The 39th AAAI Conference on Artificial Intelligence ( **AAAI** ), 2024*. [[arXiv](https://arxiv.org/pdf/2412.08149)]
 - **HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation**
   Rui Chen, **Guotao Liang**, Chenrui Ma, Qilong Han, Li Li, Xiao Huang.
-  In *International Joint Conference on Neural Networks ( **IJCNN** ), 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191111)] -->
+  In *International Joint Conference on Neural Networks ( **IJCNN** ), 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191111)] -->   
 
 
 
@@ -34,8 +34,8 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 CVPR 2025</div><img src='images/publications/TA-VQ.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Towards Improved Text-Aligned Codebook Learning: Multi-Hierarchical Codebook-Text Alignment with Long Text](https://arxiv.org/pdf/2503.01261) \\
-**Guotao Liang**, Baoquan Zhang\*, Zhiyuan Wen, Junteng Zhao,Yunming Ye, Xiaochen Qi, Yao He.
+[Towards Improved Text-Aligned Codebook Learning: Multi-Hierarchical Codebook-Text Alignment with Long Text ](https://arxiv.org/pdf/2503.01261) \\
+**Guotao Liang**, Baoquan Zhang\*, Zhiyuan Wen, Junteng Zhao,Yunming Ye, Xiaochen Qi, Yao He. <span style="color:red">(Highlights)</span>
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong>
 - We propose a novel text-augmented codebook learning framework, TA-VQ, which leverages VLMs to generate longer text for each image, improving text-aligned codebook learning.
@@ -80,7 +80,7 @@ Baoquan Zhang, Wang huaibin, Luo Chuyao, Xutao Li, **Guotao Liang**, Yunming Ye,
 </div>
 
 ## 🐰 2023
-- ``IJCAI 2023`` [HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191111), Rui Chen, **Guotao Liang**, Chenrui Ma, Qilong Han, Li Li, Xiao Huang.
+- ``IJCNN 2023`` [HTP: Exploiting Holistic Temporal Patterns for Sequential Recommendation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10191111), Rui Chen, **Guotao Liang**, Chenrui Ma, Qilong Han, Li Li, Xiao Huang.
 
 <!-- <div class='paper-box2'><div class='paper-box-image'><div><div class="badge">🔥 NeurIPS 2024</div><img src='images/publications/LG-VQ.png' alt="sym" width="500" height="300"></div></div>
     <div class='paper-box-text' markdown="1">
