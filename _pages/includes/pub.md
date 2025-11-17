@@ -31,7 +31,7 @@
 
 # 📝 Publications
 ## 🐍 2025
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 CVPR 2025</div><img src='images/publications/TA-VQ.png' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 AAAI 2026</div><img src='images/publications/KA-MIG.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Improved Masked Image Generation with Knowledge-Augmented Token Representations ](https://arxiv.org/pdf/2503.01261) \\
