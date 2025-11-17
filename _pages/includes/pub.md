@@ -34,7 +34,19 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 CVPR 2025</div><img src='images/publications/TA-VQ.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Towards Improved Text-Aligned Codebook Learning: Multi-Hierarchical Codebook-Text Alignment with Long Text ](https://arxiv.org/pdf/2503.01261) \\
+[Improved Masked Image Generation with Knowledge-Augmented Token Representations ](https://arxiv.org/pdf/2503.01261) \\
+**Guotao Liang**, Baoquan Zhang\*, Zhiyuan Wen, Zihao Han,Yunming Ye.
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong>
+- we propose a novel knowledge-augmented masked image generation framework, named KA-MIG, which leverages prior semantic knowledge graphs to enrich internal token representations and improve generation performance.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 CVPR 2025</div><img src='images/publications/TA-VQ.png' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards Improved Text-Aligned Codebook Learning: Multi-Hierarchical Codebook-Text Alignment with Long Text ](https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Towards_Improved_Text-Aligned_Codebook_Learning_Multi-Hierarchical_Codebook-Text_Alignment_with_Long_CVPR_2025_paper.html) \\
 **Guotao Liang**, Baoquan Zhang\*, Zhiyuan Wen, Junteng Zhao,Yunming Ye, Xiaochen Qi, Yao He. <span style="color:red">(Highlights)</span>
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong>
