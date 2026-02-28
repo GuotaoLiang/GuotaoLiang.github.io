@@ -31,10 +31,21 @@
 
 # 📝 Publications
 ## 🐍 2025
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 TPAMI 2026</div><img src='images/publications/TPAMI26.png' alt="sym" width="500" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Codebook Transfer with Vision-to-Language Translation for Vector Quantization](https://arxiv.org/abs/2511.12032) \\
+Baoquan Zhang, **Guotao Liang\***, Tianran Chen, Yunming Ye, Zhiyuan Wen, Xiaochen Qi, and Yao He
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong> [**Code**](https://github.com/GuotaoLiang/KA-MIG)
+- We propose a new perspective, \emph{i.e.}, codebook transfer from language models to VQ, to alleviate the codebook collapse issue. Its advantage is that the abundant transferable relationships from language codebooks can be fully exploited for enhancing VQ codebook learning.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">🔥 AAAI 2026</div><img src='images/publications/KA-MIG.png' alt="sym" width="500" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Improved Masked Image Generation with Knowledge-Augmented Token Representations ](https://arxiv.org/abs/2511.12032) \\
+[Improved Masked Image Generation with Knowledge-Augmented Token Representations](https://arxiv.org/abs/2511.12032) \\
 **Guotao Liang**, Baoquan Zhang\*, Zhiyuan Wen, Zihao Han,Yunming Ye.
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=hQpTPuEAAAAJ&citation_for_view=hQpTPuEAAAAJ:WF5omc3nYNoC) <strong><span class='show_paper_citations' data='hQpTPuEAAAAJ:WF5omc3nYNoC'></span></strong> [**Code**](https://github.com/GuotaoLiang/KA-MIG)

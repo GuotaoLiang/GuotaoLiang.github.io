@@ -7,6 +7,7 @@
  * 
 -->
 # 🔥 News
+- *2026.2*：🎉 Our [VQCT-VLT](https://arxiv.org/pdf/2503.01261) is accepted by TPAMI 2026 (corresponding author).
 - *2025.11*：🎉 Our [KA-MIG](https://arxiv.org/pdf/2503.01261) is accepted by AAAI 2026.
 - *2025.02*: 🎉 Our [TA-VQ](https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Towards_Improved_Text-Aligned_Codebook_Learning_Multi-Hierarchical_Codebook-Text_Alignment_with_Long_CVPR_2025_paper.html) is accepted by CVPR 2025 <span style="color:red">(Highlights) </span>.
 - *2024.12*: 🎉 Our [AsyncDSB](https://arxiv.org/pdf/2412.08149) is accepted by AAAI 2025.

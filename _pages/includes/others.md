@@ -7,6 +7,3 @@
 - `CVPR Reviewer` CVPR 2025
 - `NeurIPS Reviewer` NeurIPS 2026
 - `CVPR Reviewer` CVPR 2026
-<!-- # 💻 Internships
-- *2024.07 - 2024.10*, Shanghai AI Laboratory, Shanghai.
-- *2022.06 - 2022.12*, Baidu, Beijing. -->
