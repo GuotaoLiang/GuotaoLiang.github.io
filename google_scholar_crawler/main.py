@@ -12,6 +12,15 @@ MAX_ATTEMPTS = 3
 WAIT_SECONDS = 30
 
 
+def as_int(value, default=0):
+    if value is None or value == "":
+        return default
+    try:
+        return int(str(value).replace(",", ""))
+    except (TypeError, ValueError):
+        return default
+
+
 def require_env(name):
     value = os.environ.get(name, "").strip()
     if not value:
@@ -44,11 +53,16 @@ def metric_values(cited_by, metric_name):
     for row in cited_by.get("table", []):
         values = row.get(metric_name)
         if values:
+            all_time = as_int(values.get("all"))
             recent = next(
-                (value for key, value in values.items() if key != "all"),
-                values.get("all", 0),
+                (
+                    as_int(value, all_time)
+                    for key, value in values.items()
+                    if key != "all" and value is not None
+                ),
+                all_time,
             )
-            return int(values.get("all", 0)), int(recent)
+            return all_time, recent
     return 0, 0
 
 
@@ -63,12 +77,12 @@ def publication_from_serpapi(article):
         "source": "SERPAPI_AUTHOR_PROFILE",
         "bib": {
             "title": article.get("title", ""),
-            "pub_year": str(article.get("year", "")),
-            "citation": article.get("publication", ""),
+            "pub_year": str(article.get("year") or ""),
+            "citation": article.get("publication") or "",
         },
         "filled": False,
         "author_pub_id": citation_id,
-        "num_citations": int(cited_by.get("value", 0)),
+        "num_citations": as_int(cited_by.get("value")),
     }
     if cited_by.get("link"):
         publication["citedby_url"] = cited_by["link"]
@@ -124,8 +138,9 @@ def fetch_with_serpapi(api_key, scholar_id):
         "i10index": i10_index,
         "i10index5y": i10_index_recent,
         "cites_per_year": {
-            str(item["year"]): int(item["citations"])
+            str(item["year"]): as_int(item.get("citations"))
             for item in cited_by.get("graph", [])
+            if item.get("year") is not None
         },
     }
 

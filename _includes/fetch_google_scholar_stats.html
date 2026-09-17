@@ -5,15 +5,27 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
+        var dataUrl = gsDataBaseUrl + 'google-scholar-stats/gs_data.json?v=' + Date.now()
+
+        $.getJSON(dataUrl, function (data) {
+            var totalCitationElement = document.getElementById('total_cit')
+            if (totalCitationElement) {
+                totalCitationElement.textContent = data.citedby
+            }
+
+            var publications = data.publications || {}
+            var citationElements = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationElements, function (element) {
                 var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
+                var publication = publications[paperId]
+                if (publication && publication.num_citations != null) {
+                    element.textContent = '| Citations: ' + publication.num_citations
+                } else {
+                    console.warn('No Google Scholar citation data for paper:', paperId)
+                }
+            })
+        }).fail(function (_request, status, error) {
+            console.error('Failed to load Google Scholar citation data:', status, error)
+        })
     })
 </script>

@@ -26,12 +26,19 @@ class SerpApiConversionTest(unittest.TestCase):
                         "link": "https://scholar.google.com/scholar?cites=123",
                         "cites_id": "123",
                     },
-                }
+                },
+                {
+                    "title": "Uncited Paper",
+                    "citation_id": "author-id:uncited-paper",
+                    "publication": None,
+                    "year": None,
+                    "cited_by": {"value": None},
+                },
             ],
             "cited_by": {
                 "table": [
                     {"citations": {"all": 7, "since_2021": 7}},
-                    {"h_index": {"all": 1, "since_2021": 1}},
+                    {"h_index": {"all": 1, "since_2021": None}},
                     {"i10_index": {"all": 0, "since_2021": 0}},
                 ],
                 "graph": [{"year": 2026, "citations": 7}],
@@ -47,6 +54,15 @@ class SerpApiConversionTest(unittest.TestCase):
         publication = author["publications"]["author-id:paper-id"]
         self.assertEqual(publication["num_citations"], 7)
         self.assertEqual(publication["bib"]["title"], "Example Paper")
+        self.assertEqual(
+            author["publications"]["author-id:uncited-paper"]["num_citations"],
+            0,
+        )
+
+    def test_as_int_handles_null_and_formatted_values(self):
+        self.assertEqual(main.as_int(None), 0)
+        self.assertEqual(main.as_int("1,234"), 1234)
+        self.assertEqual(main.as_int("not available"), 0)
 
 
 if __name__ == "__main__":
