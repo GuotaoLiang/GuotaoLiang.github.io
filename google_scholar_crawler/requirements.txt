@@ -1,3 +1,6 @@
 jsonpickle==4.0.5
 scholarly==1.7.11
+# scholarly 1.7.11 imports bibtexparser's 1.x-only ``bibdatabase`` module.
+# Without this pin pip may install bibtexparser 2.x, causing an import failure.
+bibtexparser==1.4.3
 httpx==0.23.3
